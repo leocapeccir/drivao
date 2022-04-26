@@ -481,13 +481,14 @@ justify-content: center
     cursor:pointer
 }
 
-@media screen and (min-width:0px){
+@media screen and (min-width:414px){
     .conteudo__secundario--titulo {
         
         text-align: center;
         margin-left: 10px;
     }
 
+    
     .conteudo__sobre {
       
         flex-direction: column;
@@ -515,27 +516,28 @@ justify-content: center
         
         padding: 2px;
         margin-right: 9px;
+        font-size: .6rem;
         
     }
 
     .texto__principal {
        
             font-size: 3.2rem;
-            top: 72%;
+            top: 88%;
         
         
     }
 
     .botao__principal {
         
-        width: 170px;
+        width: 150px;
         
         
     }
 
     .conteudo__container--botao {
       
-        left: 8%;
+        left: 1%;
         top: 120%;
     }
 
