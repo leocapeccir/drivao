@@ -481,7 +481,7 @@ justify-content: center
     cursor:pointer
 }
 
-@media screen and (min-width:414px){
+@media screen and (min-width:350px){
     .conteudo__secundario--titulo {
         
         text-align: center;
@@ -522,8 +522,9 @@ justify-content: center
 
     .texto__principal {
        
-            font-size: 3.2rem;
+            font-size: 3rem;
             top: 88%;
+            margin-top: 30px;
         
         
     }
@@ -538,10 +539,12 @@ justify-content: center
     .conteudo__container--botao {
       
         left: 1%;
-        top: 120%;
+        top: 131%;
+        width: 79vw;
+
     }
 
-    .menunav {
+    .menunav{
    
         flex-direction: column;
         margin-bottom: 17px;
